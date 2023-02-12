@@ -1,8 +1,8 @@
 index
 
-lat
-lon
-startdate
+lat => label encode                                          
+lon => label encode, tạo feature location từ lat, lon
+startdate => tách thành year, month, day => drop startdate, year
 
 cancm30
 cancm40
@@ -225,20 +225,23 @@ wind_uwnd_925_2010_19
 wind_uwnd_925_2010_20
 
 
-contest_pevpr_sfc_gauss_14d__pevpr
-contest_wind_h10_14d__wind_hgt_10
 contest_rhum_sig995_14d__rhum
-contest_wind_h100_14d__wind_hgt_100
 contest_slp_14d__slp
-contest_wind_vwnd_925_14d__wind_vwnd_925
+contest_pevpr_sfc_gauss_14d__pevpr
 contest_pres_sfc_gauss_14d__pres
-contest_wind_uwnd_250_14d__wind_uwnd_250
-contest_prwtr_eatm_14d__prwtr
-contest_wind_vwnd_250_14d__wind_vwnd_250
 contest_precip_14d__precip
-contest_wind_h850_14d__wind_hgt_850
+contest_prwtr_eatm_14d__prwtr
+
+contest_wind_vwnd_250_14d__wind_vwnd_250
+contest_wind_vwnd_925_14d__wind_vwnd_925
+
+contest_wind_uwnd_250_14d__wind_uwnd_250
 contest_wind_uwnd_925_14d__wind_uwnd_925
+
+contest_wind_h10_14d__wind_hgt_10
+contest_wind_h100_14d__wind_hgt_100
 contest_wind_h500_14d__wind_hgt_500
+contest_wind_h850_14d__wind_hgt_850
 
 
 mjo1d__phase
